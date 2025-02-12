@@ -1,2 +1,3 @@
-# ecommerce-backend
-A scalable e-commerce backend API built with Node.js, Express, and PostgreSQL
+# E-Commerce Backend
+
+A scalable E-Commerce backend API built with Node.js, Express, and PostgreSQL
