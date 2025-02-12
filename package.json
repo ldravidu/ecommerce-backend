@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/ldravidu/ecommerce-backend#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.2",
+    "pg-promise": "^11.10.2"
   },
   "devDependencies": {
     "jest": "^29.7.0",
