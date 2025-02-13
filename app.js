@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+require("dotenv").config(); // Load environment variables
 
 // Middleware
 app.use(express.json());
@@ -8,6 +9,10 @@ app.use(express.json());
 app.get("/", (req, res) => {
     res.send("E-commerce API is running!");
 });
+
+// Import authentication routes
+const authRoutes = require("./routes/auth");
+app.use("/api/auth", authRoutes);
 
 // Export the app
 module.exports = app;
