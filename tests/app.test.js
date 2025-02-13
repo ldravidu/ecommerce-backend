@@ -1,5 +1,5 @@
 const request = require("supertest"); // Import Supertest to test HTTP requests
-const app = require("../server"); // Import Express framework
+const app = require("../app"); // Import Express framework
 
 // Describe the test suite for the GET / endpoint
 describe("GET /", () => {
